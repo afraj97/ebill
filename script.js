@@ -1,13 +1,6 @@
-var unit=document.getElementById('tunits');
-
-function resetText()
-{
-	unit=0;
-	console.log('value cleared');
-}
 function billCal()
 {
-	
+	let unit=Number(document.getElementById('tunits').value);
 	
 	var kwh,fr,amount;
 	if(unit<=58)
