@@ -1,3 +1,3 @@
 <?php
-	include_once ("eBillCalculator.html");
+	include_once ("ElecBillCal.html");
 ?>
